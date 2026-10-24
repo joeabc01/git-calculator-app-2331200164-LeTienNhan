@@ -1,0 +1,20 @@
+﻿npm.cmd : PASS tests/calculator.test.js
+At line:1 char:1
++ npm.cmd test --silent *>&1 | Out-File -FilePath test_output_233120016 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (PASS tests/calculator.test.js 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  compute
+    ΓêÜ adds (2 ms)
+    ΓêÜ subs (1 ms)
+    ΓêÜ multiplies
+    ΓêÜ divides (1 ms)
+    ΓêÜ divide by zero
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        0.462 s, estimated 1 s
+Ran all test suites.
